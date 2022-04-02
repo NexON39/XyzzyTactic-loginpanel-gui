@@ -129,7 +129,8 @@ img {
     font-size: 0.6rem;
 }
 
-.main .login_box .inputs input[type="text"] {
+.main .login_box .inputs input[type="text"],
+.main .login_box .inputs input[type="password"] {
     text-align: center;
     border: 1px solid var(--gray-login);
     /* border-radius: 10px; */
@@ -144,7 +145,8 @@ img {
     box-shadow: 0px 6px 14px -6px var(--shadow-color);
 }
 
-.main .login_box .inputs input[type="text"]:focus {
+.main .login_box .inputs input[type="text"]:focus,
+.main .login_box .inputs input[type="password"]:focus {
     border: var(--red) 1px solid;
 }
 
