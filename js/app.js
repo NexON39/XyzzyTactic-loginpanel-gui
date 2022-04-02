@@ -1,3 +1,6 @@
+// Made by NexON39 "kscode.pl@gmail.com"
+// Made for XyzzyTactic
+
 window.addEventListener('load', function() {
     const login_box = document.getElementById('login_box');
     const input1 = document.querySelector('.input_text1');
