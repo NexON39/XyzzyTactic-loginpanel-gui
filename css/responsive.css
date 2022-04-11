@@ -1,0 +1,33 @@
+@media(max-width: 1024px) {
+    .main img {
+        height: 150px;
+    }
+
+    .main .login_box {
+        width: 350px;
+        height: 350px;
+    }
+
+    .main .login_box .switch_btn .login_hiper {
+        width: 100%;
+        padding: 0.25rem;
+    }
+
+    .main .login_box .switch_btn a{
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+
+    .main .login_box .inputs input[type="text"],
+    .main .login_box .inputs input[type="password"] {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    }
+
+    .main .login_box .inputs input[type="submit"] {
+        font-size: 1.2rem;
+        padding: 0.2rem;
+        margin: 1rem;
+        letter-spacing: 0;
+    }
+}
